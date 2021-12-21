@@ -1,0 +1,27 @@
+.head{
+    background-color: bisque;
+}
+
+.bord {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    cursor: pointer;
+    margin: 5rem auto;
+    margin-top: 30px;
+    background-color: aqua;
+}
+.boxsize{
+    
+        display: flex;
+        font-size: 3rem;
+        justify-content: center;
+        align-items: center;
+        border: 3px outset  rgb(219, 202, 202);
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif
+    
+
+}
